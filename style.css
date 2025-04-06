@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+
+.bg-gradient-green {
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+}
+
+.bg-gradient-orange {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
